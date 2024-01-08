@@ -23,17 +23,13 @@ This Python script automates the process of renaming files within a specified di
 
 After the renaming process, the script outputs a confirmation message and displays the new names of all files in the specified directory.
 
-## Note
-
-- Use this script with caution, especially in directories containing critical files, as it permanently changes file names.
-
 ## Configuration
 
 Edit the following variables in `Renamer.py` to customize the word replacement:
 
 1. Change "C:/Users/admin/Desktop/" to your directory
-2. count = 1    # specify number to start the count
-3. ".png"    # specify the file extension
+2. "count = 1"    # specify number to start the count
+3. ".png"    # specify the file extension on line 12
 
 ## Author
 
